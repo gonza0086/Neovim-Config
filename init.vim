@@ -32,6 +32,9 @@ colorscheme gruvbox
 " Maps
 let mapleader = " "
 
+" quick ;
+nnoremap <leader>; $a;<Esc>
+
 " -> NerdTree
 map <leader>nt :NERDTree<CR>
 
