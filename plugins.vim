@@ -17,7 +17,8 @@ Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
   
 " IDE
-Plug 'yggdroot/indentline' 
+Plug 'yuezk/vim-js' 
+Plug 'yggdroot/indentline'
 Plug 'KKPMW/vim-sendtowindow'
 
 call plug#end()
