@@ -35,6 +35,11 @@ let mapleader = " "
 " -> NerdTree
 map <leader>nt :NERDTree<CR>
 
+" -> Coc
+" definition mapping
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gr <Plug>(coc-references)
+
 " -> SendToWindow
 " change window 
 nnoremap <C-h> <C-w>h
@@ -50,4 +55,5 @@ noremap <silent> <C-Down> :resize +3<cr>
 map <leader>ev <C-w>t<C-w>H
 map <leader>eh <C-w>t<C-w>K
 " open bash terminal
-nnoremap <leader>tr :new term://bash<cr>
+nnoremap <silent> <C-r> :new term://bash<cr>
+nnoremap <leader>tr :new term<cr>
