@@ -1,7 +1,6 @@
 " Set
 :set number relativenumber
 :set splitbelow splitright
-:set mouse=a
 
 " Plugins
 call plug#begin('~/.config/nvim/Plugged')
