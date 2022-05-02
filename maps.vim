@@ -8,6 +8,17 @@ nnoremap <leader>; $a;<Esc>
 xnoremap J :move '>+1<cr>gv-gv
 xnoremap K :move '<-2<cr>gv-gv 
 
+" tabs
+map <leader>tn :tabnew<cr>
+map <leader>t<leader> :tabnext<cr>
+map <leader>tm :tabmove<cr>
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+
+" surfing between tabs
+nnoremap <leader>gt gt
+nnoremap <leader>gp gT
+
 " -> NerdTree
 map <leader>nt :NERDTree<CR>
 
@@ -31,5 +42,5 @@ noremap <silent> <C-Down> :resize +3<cr>
 map <leader>ev <C-w>t<C-w>H
 map <leader>eh <C-w>t<C-w>K
 " open bash terminal
-nnoremap <silent> <C-r> :new term://bash<cr>
+nnoremap <silent> <C-t> :new term://bash<cr>
 nnoremap <leader>tr :new term<cr>
