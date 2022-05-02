@@ -4,6 +4,10 @@ let mapleader = " "
 " quick ;
 nnoremap <leader>; $a;<Esc>
 
+" moving lines
+xnoremap J :move '>+1<cr>gv-gv
+xnoremap K :move '<-2<cr>gv-gv 
+
 " -> NerdTree
 map <leader>nt :NERDTree<CR>
 
