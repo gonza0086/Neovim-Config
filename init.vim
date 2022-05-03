@@ -3,6 +3,7 @@ set number relativenumber
 set splitbelow splitright
 set tabstop=4
 set shiftwidth=4
+set mouse=a
 
 " Setting path for more config files
 so ~/.config/nvim/plugins.vim

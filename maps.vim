@@ -19,8 +19,11 @@ map <leader>to :tabonly<cr>
 nnoremap <leader>gt gt
 nnoremap <leader>gp gT
 
+" execute current node file
+nnoremap <leader>x :!node %<cr>
+
 " -> NerdTree
-map <leader>nt :NERDTree<CR>
+map <leader>nt :NERDTree<cr>
 
 " -> Coc
 " definition mapping
